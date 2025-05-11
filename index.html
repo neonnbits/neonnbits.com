@@ -4,16 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        *{
+        * {
             font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333;
+        }
+
+        body {
+            max-width: 650px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            line-height: 1.4;
+        }
+
+        img {
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0 0 0;
+        }
+
+        h1, h2, h3, h4 {
+            margin-bottom: 4px;
+        }
+
+        p {
+            margin: 2px 0 0 2px;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
         }
     </style>
     <title>neonnbits</title>
 </head>
 <body>
-    <div><h1>About me.</h1>
-    <img src="image.png" alt="" height="100px"></div>
-    <p>I'm neon, a developer.<br> Working on stuff with <a href="http://x.com/sasuke___420">@sasuke</a>.<br> Learning Zig and some ML/DL.
+    <div>
+        <h1>about me.</h1>
+        <img src="image.png" alt="profile image" height="100px">
+    </div>
+    
+    <p>
+        howdy! i'm <a href="http://x.com/neonnbits">neon</a>, ml engineer.<br>
+        currently working on tokenization stuff in zig and python.<br>
+        also grokking some foundational math on mathacademy.
     </p>
+    
+    <h4>books (currently reading) <a href="books.html">finished</a></h4>
+    <ul>
+        <li>introduction to algorithms (clrs)</li>
+        <li>computer systems: a programmer's perspective</li>
+        <li>sapiens: a brief history of humankind</li>
+    </ul>
 </body>
 </html>
